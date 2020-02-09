@@ -1,7 +1,7 @@
 # crypto_challenge_2020
 Solve this challenge to maybe win something. Due by next meeting (but you could always do it for fun).
 
-<b>Implement repeating-key XOR<\b>
+<b>Implement repeating-key XOR</b>
 
 What does that mean? In repeating-key XOR, you'll sequentially apply each byte of the key. Let's say our key is "ICE"; the first byte of plaintext will be XOR'd against I, the next C, the next E, then I again for the 4th byte, and so on. Here's an example:
 
